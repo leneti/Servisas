@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import colors from "../config/colors";
-import { db, firebase } from "../config/firebase";
+import { db } from "../config/firebase";
 import {
   StyleSheet,
   TouchableOpacity,
@@ -16,7 +16,6 @@ import {
   Body,
   Button,
   Content,
-  Icon,
 } from "native-base";
 import { TextInput } from "react-native-paper";
 import {

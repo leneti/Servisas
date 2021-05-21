@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import colors from "../config/colors";
-import { db, firebase } from "../config/firebase";
+import { db } from "../config/firebase";
 import {
   StyleSheet,
   TouchableOpacity,
   View,
   Text,
-  Platform,
   FlatList,
 } from "react-native";
 import {
@@ -17,14 +16,13 @@ import {
   Body,
   Button,
   Content,
-  Icon,
 } from "native-base";
-import { TextInput, Portal, Modal, List } from "react-native-paper";
+import { TextInput, List } from "react-native-paper";
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
-import { MaterialCommunityIcons, Feather } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 export default function Search({ navigation }) {
   const [vin, setVin] = useState("");

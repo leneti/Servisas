@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import colors from "../config/colors";
-import { db } from "../config/firebase";
 import {
   StyleSheet,
   TouchableOpacity,
